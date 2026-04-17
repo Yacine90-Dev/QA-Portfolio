@@ -1,0 +1,35 @@
+{
+  "info": {
+    "_postman_id": "fe0ca895-0b88-46ef-aaae-af31e2cf1022",
+    "name": "API Testing - JSONPlaceholder",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54051521",
+    "_collection_link": "https://go.postman.co/collection/54051521-fe0ca895-0b88-46ef-aaae-af31e2cf1022?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "POST by ID",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "POST CREATE POST",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "GET Non-existing Post",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
