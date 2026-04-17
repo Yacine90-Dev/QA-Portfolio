@@ -36,6 +36,12 @@ This project demonstrates API testing skills using Postman on a public REST API.
 - JSON validation
 - Automated testing with Postman scripts
 - Understanding of fake vs real APIs
+- QA Analysis
+
+During testing, it was observed that the POST request returns a 201 status and a new ID.  
+However, this API does not persist data, as a subsequent GET request on the new resource returns a 404 status.
+
+This indicates that JSONPlaceholder is a mock API used for testing purposes.
 
 ## 📁 Project Structure
 - Postman Collection (JSON file)
